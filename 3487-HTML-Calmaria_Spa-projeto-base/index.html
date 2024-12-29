@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -23,19 +23,19 @@
 
 <body>
 
-    <div class="cabecalho">
-        <div class="cabecalho__nav">
-            <a>
+    <header class="cabecalho">
+        <nav class="cabecalho__nav">
+            <a href="#">
                 <img class="cabecalho__nav--logo" src="./assets/logo.png">
             </a>
             <span class="cabecalho__nav--line"></span>
-            <div class="cabecalho__nav--lista">
-                <div class="cabecalho__lista-item"><a href="#">Espaço</a></div>
-                <div class="cabecalho__lista-item"><a href="#">Serviços</a></div>
-                <div class="cabecalho__lista-item"><a href="#">Contato</a></div>
-            </div>
-        </div>
-    </div>
+            <ul class="cabecalho__nav--lista">
+                <li class="cabecalho__lista-item"><a href="#">Espaço</a></li>
+                <li class="cabecalho__lista-item"><a href="#">Serviços</a></li>
+                <li class="cabecalho__lista-item"><a href="#contato-formulario">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <div class="container">
 
@@ -120,6 +120,7 @@
             <div action="." class="container__contato--form">
                 <div class="container__contato--form-conteudo">
                     <h1 class="container__contato--form-conteudo-titulo">Entre em contato</h1>
+                    <form action="." id="contato-formulario" lass="container__contato--form"></form>
                     <p class="container__contato--form-conteudo-texto">Reserve seu horário, tire dúvidas ou proponha
                         sugestões, nosso
                         canal é aberto para
